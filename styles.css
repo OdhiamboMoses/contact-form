@@ -1,0 +1,39 @@
+.form-question {
+  margin: 20px 0px;
+}
+
+.form-question label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.required label::after {
+  color: red;
+  content: " * Required";
+}
+
+.form-question input,
+.form-question textarea {
+  width: 80vw;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+  padding: 10px 15px;
+  background-color: royalblue;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  box-shadow: 1px 2px #333333;
+}
+
+#submit:hover {
+  background-color: white;
+  color: royalblue;
+  border: 1px solid royalblue;
+  box-shadow: none;
+}
